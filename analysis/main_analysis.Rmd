@@ -172,7 +172,7 @@ In this sub chapter we pipe-in the dataset.
 This dataset contains LLM forecasts, Polymarket prices, market metadata, and market resolutions.
 
 ```{r Import data}
-data_raw <- readr::read_csv("master_forecasting_With_vol_edited.csv")
+data_raw <- readr::read_csv("dataset.csv")
 
 #Clean column names (e.g., 'Market ID' -> 'market_id')
 
